@@ -7,10 +7,14 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    
-    <div className="h-screen bg-slate-600 text-white">
-      <Navbar/>
-      <div className="flex flex-col gap-[200px] items-center justify-center min-h-[40vh] w-full mt-10 p-10">
+    <div>
+    <div className="main">
+   
+       <div className='gradient' />
+       </div>
+  
+      <div className="app">
+       <Navbar/>
         <Routes>
       <Route path="/" element={<Main/>}/>
       <Route path="/getinfo" element={<Details/>}/>

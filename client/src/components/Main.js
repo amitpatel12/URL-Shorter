@@ -40,13 +40,13 @@ const Main = () => {
     }
     
   return (
-    <div className=' bg-white text-black p-8 z-50 rounded-[10px] grid gap-4 min-w-[22vw]'>
+    <div className=' bg-white text-black p-8 z-50 rounded-[10px] grid gap-4 sm:min-w-[22vw] min-w-[15vw] mt-4'>
       <div className='flex flex-col gap-2'>
         <label>Enter Long Url</label>
         <input type='text' placeholder='Enter URL' className='p-2 border-[1px] border-[#166534] outline-none rounded-[5px]' required onChange={e=> setUrl(e.target.value)}/>
       </div>
 
-      <button type='submit' className='bg-green-800 text-white w-full rounded-[5px] p-2 h-[45px] hover:opacity-90' onClick={handleGenerate}>Get Short Url</button>
+      <button type='submit' className='bg-green-800 btn-orange text-white w-full rounded-[5px] p-2 h-[45px] hover:opacity-90' onClick={handleGenerate}>Get Short Url</button>
 
 {
     show && <div className='flex flex-col gap-3'>

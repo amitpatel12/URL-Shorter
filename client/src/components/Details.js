@@ -28,7 +28,7 @@ const Details = () => {
 
     }
   return (
-    <div className=' bg-white text-black p-7 z-50 rounded-[10px] grid gap-4 min-w-[22vw]'>
+    <div className=' bg-white text-black p-7 z-50 rounded-[10px] grid gap-4 min-w-[22vw] mt-4'>
       <p className='text-center text-[22px]'>History of Short URL</p>
       <div className='flex flex-col gap-2'>
         <label>Enter Short Url</label>
